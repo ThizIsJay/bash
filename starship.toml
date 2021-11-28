@@ -1,3 +1,18 @@
 add_newline = false
+
 format = """
-[$directory](bold blue) """
+[$directory](bold blue) """		
+
+
+[line_break]
+disable = true
+
+[package]
+disable = true
+
+[hostname]
+ssh_only = false
+format =  "on [$hostname](bold red) "
+trim_at = ".companyname.com"
+disabled = false
+
